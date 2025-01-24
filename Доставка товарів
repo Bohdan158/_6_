@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Stories - Доставка товарів</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #212529;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        .container {
+            max-width: 960px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #007bff;
+        }
+        .story {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            background: #f1f1f1;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #007bff;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Документація User Stories</h1>
+        <p>Екранні форми для Бізнес-процесу “Доставка товарів”</p>
+    </header>
+    <div class="container">
+        <h2>Головна User Story</h2>
+        <div class="story">
+            <h3>IS-025. Screen form “Delivery of Orders” – UI and Commands</h3>
+            <p><strong>Користувач:</strong> Менеджер по доставці</p>
+            <p><strong>Цінність:</strong> Мати можливість огляду в Системі змісту замовлень.</p>
+            <p><strong>Деталі:</strong> Екранна форма дозволяє переглядати замовлення, вводити нові дані, змінювати статуси та друкувати документи.</p>
+        </div>
+        <h2>Дочірні User Stories</h2>
+        <div class="story">
+            <h3>IS-026. Validation of Orders</h3>
+            <p><strong>Користувач:</strong> Менеджер по доставці</p>
+            <p><strong>Цінність:</strong> Гарантія правильності введених даних.</p>
+            <p><strong>Деталі:</strong> Перевірка валідності значень полів замовлення перед збереженням.</p>
+        </div>
+        <div class="story">
+            <h3>IS-027. Printing Delivery Documents</h3>
+            <p><strong>Користувач:</strong> Менеджер по доставці</p>
+            <p><strong>Цінність:</strong> Отримання звіту для клієнтів.</p>
+            <p><strong>Деталі:</strong> Друк документа із переліком товарів замовлення.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024-2025 Інженерія програмного забезпечення</p>
+    </footer>
+</body>
+</html>
